@@ -3,15 +3,12 @@
 To automate the process of committing and pushing to GitHub after a change or addition of a file, you can use a shell script or a batch file that executes the necessary Git commands. 
 
 ## Installation
-
-Install my-project with npm
-
 ```bash
-  npm install my-project
-  cd my-project
+1- Modify the file git-acp.sh with your info, if you want.
+2- Ensure that the script is executable using the following command: chmod +x git-acp.sh
+3- ./git-acp.sh to execute the file
 ```
-
-For Clone the Repo:
+# Clone the Repo:
 
 git clone `https://oauth2:TOKEN@github.com/username/repo.git`
 
